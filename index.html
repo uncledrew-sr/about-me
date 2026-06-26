@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="최범규(Beom-Gyu Choi) — 제주대학교 컴퓨터공학과 4학년. Agentic AI 기반 풀스택 개발 & 멀티모달 AI 에이전트 연구." />
+  <title>Beom-Gyu Choi</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Global Navigation -->
+  <nav class="global-nav" id="global-nav" role="navigation" aria-label="메인 네비게이션">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo" id="nav-logo" aria-label="홈으로">Beom-Gyu Choi</a>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="#about" class="nav-link" id="nav-about">About</a></li>
+        <li><a href="#skills" class="nav-link" id="nav-skills">Skills</a></li>
+        <li><a href="#contact" class="nav-link" id="nav-contact-link">Contact</a></li>
+      </ul>
+      <button class="nav-hamburger" id="nav-hamburger" aria-label="메뉴 열기" aria-expanded="false"
+        aria-controls="mobile-menu">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu" role="dialog" aria-label="모바일 메뉴" hidden>
+      <ul class="mobile-nav-links" role="list">
+        <li><a href="#about" class="mobile-nav-link" id="mob-nav-about">About</a></li>
+        <li><a href="#skills" class="mobile-nav-link" id="mob-nav-skills">Skills</a></li>
+        <li><a href="#contact" class="mobile-nav-link" id="mob-nav-contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- Section 1: Hero -->
+    <section class="section section-hero" id="hero" aria-labelledby="hero-name">
+      <canvas class="hero-canvas" id="hero-canvas" aria-hidden="true"></canvas>
+      <div class="container">
+        <div class="hero-content reveal">
+          <h1 class="hero-name" id="hero-name">최범규</h1>
+          <p class="hero-sub">Beom-Gyu Choi</p>
+          <p class="hero-affiliation">제주대학교 컴퓨터공학과 4학년</p>
+          <div class="hero-cta">
+            <a href="https://github.com/uncledrew-sr" target="_blank" rel="noopener noreferrer" class="btn btn-primary"
+              id="btn-github">GitHub 보기</a>
+            <a href="#contact" class="btn btn-ghost" id="btn-contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: About -->
+    <section class="section section-about" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <h2 class="section-title reveal" id="about-title">About</h2>
+        <div class="about-body reveal">
+          <p class="body-text">
+            저는 <strong>Agentic AI</strong> 기반의 풀스택 개발과 <strong>멀티모달 AI 에이전트</strong> 연구에 집중하고 있는 개발자입니다.
+          </p>
+          <p class="body-text">
+            자율적으로 목표를 추론하고 행동하는 에이전트 시스템 설계에 관심이 깊으며, AI와 실제 서비스를 연결하는 풀스택 개발 경험을 쌓고 있습니다.
+          </p>
+          <p class="body-text">
+            현재 제주대학교 컴퓨터공학과에서 학업을 이어가며, 이론과 실전을 함께 탐구하는 것을 즐깁니다.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Skills -->
+    <section class="section section-skills" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <h2 class="section-title section-title-ondark reveal" id="skills-title">Skills</h2>
+        <div class="skills-grid">
+          <article class="skill-card reveal" id="skill-aiml">
+            <h3 class="skill-card-title">AI / ML</h3>
+            <ul class="skill-list" role="list">
+              <li class="skill-item">PyTorch</li>
+              <li class="skill-item">Scikit-learn</li>
+            </ul>
+          </article>
+          <article class="skill-card reveal" id="skill-frontend">
+            <h3 class="skill-card-title">Frontend</h3>
+            <ul class="skill-list" role="list">
+              <li class="skill-item">React</li>
+              <li class="skill-item">Vue.js</li>
+              <li class="skill-item">JavaScript</li>
+            </ul>
+          </article>
+          <article class="skill-card reveal" id="skill-backend">
+            <h3 class="skill-card-title">Backend</h3>
+            <ul class="skill-list" role="list">
+              <li class="skill-item">FastAPI</li>
+              <li class="skill-item">Python</li>
+            </ul>
+          </article>
+          <article class="skill-card reveal" id="skill-infra">
+            <h3 class="skill-card-title">Infra</h3>
+            <ul class="skill-list" role="list">
+              <li class="skill-item">Docker</li>
+              <li class="skill-item">Kubernetes</li>
+              <li class="skill-item">GCP</li>
+            </ul>
+          </article>
+          <article class="skill-card reveal" id="skill-language">
+            <h3 class="skill-card-title">Language</h3>
+            <ul class="skill-list" role="list">
+              <li class="skill-item">C</li>
+              <li class="skill-item">C++</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Interests -->
+    <section class="section section-interests" id="interests" aria-labelledby="interests-title">
+      <div class="container">
+        <h2 class="section-title reveal" id="interests-title">Interests</h2>
+        <div class="chips-wrap reveal">
+          <span class="chip" id="chip-running">🏃 러닝</span>
+          <span class="chip" id="chip-basketball">🏀 농구</span>
+          <span class="chip" id="chip-tennis">🎾 테니스</span>
+          <span class="chip" id="chip-motorsport">🏎️ 모터스포츠</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: Contact -->
+    <section class="section section-contact" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 class="section-title reveal" id="contact-title">Contact</h2>
+        <div class="contact-body reveal">
+          <a href="https://github.com/uncledrew-sr" target="_blank" rel="noopener noreferrer" class="github-link"
+            id="github-link" aria-label="GitHub 프로필 열기">
+            <svg class="github-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"
+              focusable="false">
+              <path
+                d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z" />
+            </svg>
+            <span>github.com/uncledrew-sr</span>
+          </a>
+
+          <div class="npx-block reveal" id="npx-block">
+            <div class="npx-header">
+              <span class="npx-label">npx</span>
+              <button class="copy-btn" id="copy-btn" aria-label="명령어 복사">복사</button>
+            </div>
+            <code class="npx-code" id="npx-code">npx npx-beom-gyu-choi</code>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Section 6: Footer -->
+  <footer class="site-footer" id="footer" role="contentinfo">
+    <div class="container">
+      <p class="footer-text">© 2025 Beom-Gyu Choi</p>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
