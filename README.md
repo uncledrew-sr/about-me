@@ -93,10 +93,15 @@ npx serve .
 ---
 
 ## 링크
-
-- **GitHub** — [github.com/uncledrew-sr](https://github.com/uncledrew-sr)
 - **npx** — `npx npx-beom-gyu-choi`
 
 ---
 
-© 2025 Beom-Gyu Choi
+## 스크린샷
+<img width="1495" height="853" alt="Screenshot 2026-06-26 at 9 56 24 PM" src="https://github.com/user-attachments/assets/ee94f49e-5d71-4615-a59a-8f6298a2bae8" />
+<img width="1492" height="854" alt="Screenshot 2026-06-26 at 9 56 34 PM" src="https://github.com/user-attachments/assets/2e448043-ac69-4e58-a04a-ec342a39d560" />
+<img width="1496" height="745" alt="Screenshot 2026-06-26 at 9 56 44 PM" src="https://github.com/user-attachments/assets/0b39f0cf-760a-4640-9cc3-07682db7e121" />
+
+---
+
+© 2026 Beom-Gyu Choi
